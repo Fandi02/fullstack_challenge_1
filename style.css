@@ -1,0 +1,264 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+.hero {
+    width: 100%;
+    height: 575px;
+    background-color: #F1F3FF;
+    padding-right: 12px;
+}
+nav {
+    height: max-content;
+    width: 90%;
+    display: flex;
+    padding-top: 20px;
+    margin-left: 70px;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    height: 34px;
+    background: #0D28A6
+}
+.hero .nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero .nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+.hero .nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 10px 0;
+    font-weight: bolder;
+}
+.button a{
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+}
+.button {
+    background: #5CB85F;
+    border-radius: 2px;
+    padding: 8px 12px 8px 12px;
+    border: 0cm;
+}
+.banner {
+    padding: 150px 0 0 70px;
+}
+.banner col h1 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    color: #000000;
+}
+.banner col p{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+.backgroundCar {
+    width: 704px;
+    height: 270px;
+    /* Primary/DarkBlue/04 */
+    background: #0D28A6;
+    border-radius: 60px 0px 0px 0px;
+    position: absolute;
+    top: 305px;
+}
+
+/* ------------------our-services---------------------- */
+.our-services {
+    margin-top: 100px;
+}
+.our-services h2 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.our-services p {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+.our-services ul li {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: -35px;
+}
+.our-service ul li img {
+    margin-right : 12px;
+}
+/* ------------------why-us---------------------- */
+.why-us {
+    margin-top: 100px;
+}
+.why-us h2 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-left: 10px;
+}
+.why-us p {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin-left: 10px;
+}
+.why-us .card{
+    border: 1px solid #D0D0D0;
+    border-radius: 8px;
+    margin: 0px 10px;
+}
+.why-us .card .card-body img{
+    margin: 16px 0px;
+}
+.why-us .card .card-body h3{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin: 16px 0px;
+}
+.why-us .card .card-body p{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin: 16px 0px;
+}
+
+/* ------------------testimonial---------------------- */
+.testimonial {
+    margin-top: 100px;
+}
+.testimonial .card-body {
+    padding: 50px 20px;
+}
+.testimonial p {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;    
+}
+.testimonial b {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+/* ------------------cta-banner---------------------- */
+.cta-banner {
+    height: 300px;
+    width: 100%;
+    margin-top: 100px;
+    padding: 50px;
+    background: #0D28A6;
+    border-radius: 13px;
+    text-align: center;
+    padding-top: 9%;
+}
+.cta-banner h1 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.cta-banner p {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+/* ------------------FAQ---------------------- */
+.faq {
+    margin-top: 125px;
+}
+
+/* ------------------footer---------------------- */
+footer {
+    height: max-content;
+    width: 90%;
+    padding: 20px;
+    margin: 100px 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .row .col {
+    width: 500px;
+    margin-right: 20px;
+}
+footer .text p {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+footer .link a {
+    text-decoration: none;
+}
+footer .link p{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #000000;
+}
